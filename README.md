@@ -28,8 +28,10 @@ This project provides a solution for shortening long SharePoint URLs or other UR
 
 5. Update File Properties:
 - Use the "Update file properties" action to save the newly created shortened link back to SharePoint.
-
-![image-4](https://github.com/korhanh/PowerAutomate_Image_to_PDF/blob/main/4.png)
+```plaintext
+body('HTTP')?['short_url']
+```
+![image-1](https://github.com/korhanh/Power-Automate-Shortened-URL/blob/main/1.png)
 
 
 ## Features
@@ -48,13 +50,15 @@ This project provides a solution for shortening long SharePoint URLs or other UR
 - Follow the steps outlined above to add the necessary actions to your Power Automate flow.
 - Customize the folder paths and settings as needed.
 
+![image-2](https://github.com/korhanh/Power-Automate-Shortened-URL/blob/main/2.png)
+
   ## Contributions and Feedback
 
 Contributions to this project are welcome! If you encounter any issues or have suggestions for improvement, feel free to open an issue or submit a pull request.
 
 ## License
 
-This project is licensed under the [MIT License](https://github.com/korhanh/PowerAutomate_Image_to_PDF/blob/main/LICENSE).
+This project is licensed under the [MIT License](https://github.com/korhanh/Power-Automate-Shortened-URL/blob/main/LICENSE).
 
 Feel free to use, modify, and distribute this project according to the terms specified in the license.
 
