@@ -16,12 +16,15 @@ This project provides a solution for shortening long SharePoint URLs or other UR
 4. Add HTTP Action:
 - Add an HTTP action and configure it according to the settings provided on the screen.
   - Method: POST
-  - URI: https://zetaleap.com/shorten/
+  - URI: https://s.zetaleap.com/create
+  - Headers
+  - Content-Type        application/json
+  - Authorization      Bearer xxxxxxxx
+    
   - Use the following JSON for the body:
 ```json
 {
-  "target_url": "your_url",
-  "api_key": "(Obtain your activation code from zetaleap.com)"
+  "url": "https://github.com/korhanh"
 }
 ```
   
@@ -29,7 +32,7 @@ This project provides a solution for shortening long SharePoint URLs or other UR
 5. Update File Properties:
 - Use the "Update file properties" action to save the newly created shortened link back to SharePoint.
 ```plaintext
-body('HTTP')?['short_url']
+body('HTTP')?['shortUrl']
 ```
 ![image-1](https://github.com/korhanh/Power-Automate-Shortened-URL/blob/main/1.png)
 
