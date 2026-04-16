@@ -24,7 +24,8 @@ This project provides a solution for shortening long SharePoint URLs or other UR
   - Use the following JSON for the body:
 ```json
 {
-  "url": "https://github.com/korhanh"
+  "url": "URL",
+  "title": "Deploy link"
 }
 ```
   
