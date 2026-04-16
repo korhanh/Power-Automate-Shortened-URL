@@ -16,7 +16,7 @@ This project provides a solution for shortening long SharePoint URLs or other UR
 4. Add HTTP Action:
 - Add an HTTP action and configure it according to the settings provided on the screen.
   - Method: POST
-  - URI: https://s.zetaleap.com/create
+  - URI: [https://s.zetaleap.com/create](https://zetaleap.com/api/shorten)
   - Headers
   - Content-Type        application/json
   - Authorization      Bearer xxxxxxxx
